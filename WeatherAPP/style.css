@@ -1,0 +1,78 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    background-color: rgba(173, 183, 187, 0.508);
+}
+.weatherform{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(119, 195, 227);
+    margin-bottom: 20px;
+}
+.whichCity{
+    padding: 10px;
+    font-size: 2rem;
+    font-weight: bold;
+    border: solid rgba(0, 0, 0, 0.355);
+    border-radius: 10px;
+    margin: 10px;
+    width: 300px;
+}
+button[type="submit"]{
+    padding: 10px 20px;
+    font-size: 2rem;
+    font-weight: bold;
+    border: none;
+    background-color: rgb(119, 195, 227);
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+button[type="submit"]:hover{
+    background-color: rgba(119, 195, 227, 0.645);
+}
+.space{
+    background: linear-gradient(180deg,rgb(119, 195, 227),rgb(216, 159, 59));
+    padding: 50px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    font-size: 3.5rem;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+p{
+    font-size: 1.5rem;
+    margin: 5px 0;
+}
+.cityDisp, .tempDisp{
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.593);
+}
+.humidityDisp{
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.descpDisp{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.emojiDisp{
+    font-size: 7.5rem;
+    margin: 0;
+}
+.error{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: hsla(0, 0%, 1%, 0.527);
+}
